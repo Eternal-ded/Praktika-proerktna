@@ -1,8 +1,3 @@
-/* ========================================
-   MagicTetris - Почти без CSS
-   Минимум оформления, только структура
-   ======================================== */
-
 * {
     margin: 0;
     padding: 0;
@@ -22,7 +17,7 @@ body {
     padding: 0 15px;
 }
 
-/* Шапка - просто текст */
+
 .main-header {
     background: #eee;
     border-bottom: 1px solid #999;
@@ -56,7 +51,7 @@ body {
     color: #c00;
 }
 
-/* Навигация - как простые ссылки */
+
 .main-nav ul {
     display: flex;
     gap: 15px;
@@ -80,7 +75,7 @@ body {
     cursor: pointer;
 }
 
-/* Кнопка как обычная */
+
 .btn-primary {
     background: #ddd;
     color: black;
@@ -96,7 +91,7 @@ body {
     background: #bbb;
 }
 
-/* Герой-секция */
+
 .hero {
     padding: 30px 0;
     background: white;
@@ -137,7 +132,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* Мана-бар - как таблица */
+
 .mana-preview {
     background: #f5f5f5;
     padding: 8px;
@@ -186,7 +181,7 @@ h1 {
     color: #555;
 }
 
-/* Игровое превью - просто клетки */
+
 .hero-visual {
     background: #f9f9f9;
     padding: 15px;
@@ -232,7 +227,7 @@ h1 {
 .t-block { background: #faf; }
 .l-block { background: #faa; }
 
-/* Панель заклинаний */
+
 .spells-preview {
     background: #f5f5f5;
     padding: 10px;
@@ -253,7 +248,7 @@ h1 {
     float: right;
 }
 
-/* Секция заклинаний */
+
 .spells-section {
     padding: 30px 0;
     background: white;
@@ -303,7 +298,7 @@ h1 {
     border: 1px solid #ccc;
 }
 
-/* Новости */
+
 .preview-news {
     padding: 30px 0;
     background: white;
@@ -340,7 +335,7 @@ h1 {
     font-size: 0.8rem;
 }
 
-/* Цитата */
+
 .graphic-quote {
     background: #f5f5f5;
     padding: 30px 0;
@@ -366,7 +361,7 @@ h1 {
     color: #555;
 }
 
-/* Футер */
+
 .main-footer {
     background: #eee;
     padding: 15px 0;
@@ -391,7 +386,7 @@ h1 {
     text-decoration: underline;
 }
 
-/* Страницы */
+
 .page-header {
     background: #f5f5f5;
     padding: 25px 0;
@@ -476,7 +471,7 @@ h1 {
     height: 100%;
 }
 
-/* Команда */
+
 .team-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -525,7 +520,7 @@ h1 {
     border: 1px solid #ccc;
 }
 
-/* Журнал */
+
 .journal-posts {
     padding: 30px 0;
 }
@@ -556,7 +551,7 @@ h1 {
     border: 1px solid #ccc;
 }
 
-/* Ресурсы */
+
 .resources-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
@@ -594,7 +589,7 @@ h1 {
     color: #00c;
 }
 
-/* Адаптивность */
+
 @media (max-width: 700px) {
     .main-nav ul {
         display: none;
