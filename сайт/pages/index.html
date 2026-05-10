@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Главная | Тетрис: Проектная деятельность</title>
+    <link rel="stylesheet" <link rel="stylesheet" href="../css/style.css">>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="site-wrapper">
+        <header class="main-header">
+            <div class="container header-container">
+                <div class="logo">
+                    <div class="tetris-icon">🧩</div>
+                    <span class="logo-text">MAGIC<span class="highlight">TETRIS</span></span>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html" class="active">Главная</a></li>
+                        <li><a href="about.html">О проекте</a></li>
+                        <li><a href="team.html">Участники</a></li>
+                        <li><a href="journal.html">Журнал</a></li>
+                        <li><a href="resources.html">Ресурсы</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-toggle">☰</div>
+            </div>
+        </header>
+
+        <main>
+            <!-- Герой-секция с анимацией -->
+            <section class="hero">
+                <div class="container hero-grid">
+                    <div class="hero-content">
+                        <span class="hero-tag">Проектная деятельность 2026</span>
+                        <h1>Классическая головоломка<br>в <span class="neon-text">новом исполнении</span></h1>
+                        <p class="hero-annotation">
+                            Разработка тетриса с механикой маны и заклинаниями, как в фэнтези!
+                        </p>
+                        <div class="hero-stats">
+                            <div class="stat"><span class="stat-num">2</span> <span>месяцев разработки</span></div>
+                            <div class="stat"><span class="stat-num">3</span> <span>участника</span></div>
+                            <div class="stat"><span class="stat-num">3</span> <span>этапа</span></div>
+                        </div>
+                        <a href="about.html" class="btn btn-primary">Узнать о проекте →</a>
+                    </div>
+                    <div class="hero-visual">
+                        <!-- Анимированная сетка тетриса (иллюстрация) -->
+                        <div class="tetris-grid-preview">
+                            <div class="preview-row"><div class="block i-block"></div><div class="block i-block"></div><div class="block i-block"></div><div class="block i-block"></div><div class="block"></div><div class="block"></div></div>
+                            <div class="preview-row"><div class="block"></div><div class="block"></div><div class="block"></div><div class="block"></div><div class="block o-block"></div><div class="block o-block"></div></div>
+                            <div class="preview-row"><div class="block"></div><div class="block"></div><div class="block"></div><div class="block"></div><div class="block o-block"></div><div class="block o-block"></div></div>
+                            <div class="preview-row"><div class="block t-block"></div><div class="block t-block"></div><div class="block t-block"></div><div class="block"></div><div class="block"></div><div class="block"></div></div>
+                            <div class="preview-row"><div class="block"></div><div class="block t-block"></div><div class="block"></div><div class="block"></div><div class="block l-block"></div><div class="block l-block"></div></div>
+                            <div class="preview-row"><div class="block"></div><div class="block"></div><div class="block"></div><div class="block"></div><div class="block l-block"></div><div class="block l-block"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Краткая аннотация проекта (блок с акцентами) -->
+            <section class="features">
+                <div class="container">
+                    <h2 class="section-title">Почему наш Тетрис уникален?</h2>
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <div class="feature-icon"></div>
+                            <h3>Прогрессивная сложность</h3>
+                            <p>Адаптивная система скорости и поощрения за комбо-линии.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon"></div>
+                            <h3>Таблица рекордов</h3>
+                            <p>Сохранение лучших результатов и личная статистика игрока.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon"></div>
+                            <h3>Стиль RPG 90-х</h3>
+                            <p>Пиксельная графика в сочетании с элементами магии.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Анонс новостей из журнала -->
+            <section class="preview-news">
+                <div class="container">
+                    <h2 class="section-title">Последние события</h2>
+                    <div class="news-preview-grid">
+                        <article class="news-card">
+                            <div class="news-date">31 марта 2026</div>
+                            <h3>Старт проекта: выбор стека</h3>
+                            <p>Команда утвердила архитектуру на HTML, CSS и PyGame. Создан репозиторий GitHub и макет интерфейса.</p>
+                            <a href="journal.html#post1" class="read-more">Читать →</a>
+                        </article>
+                        <article class="news-card">
+                            <div class="news-date">21 апреля 2026</div>
+                            <h3>Рабочий прототип игрового поля</h3>
+                            <p>Реализована базовая механика падения фигур, вращение и удаление линий. Реализация механика маны.</p>
+                            <a href="journal.html#post2" class="read-more">Читать →</a>
+                        </article>
+                        <article class="news-card">
+                            <div class="news-date">4 мая 2026</div>
+                            <h3>Альфа-тестирование и UI</h3>
+                            <p>Добавлены анимации, звуковое сопровождение и система очков. Началось внутреннее тестирование.</p>
+                            <a href="journal.html#post3" class="read-more">Читать →</a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+
+        <footer class="main-footer">
+            <div class="container footer-inner"></div></div>
+        </footer>
+    </div>
+   
+</body>
+</html>

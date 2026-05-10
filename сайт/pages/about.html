@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О проекте | Тетрис: команда MagicTetris</title>
+    <link rel="stylesheet" <link rel="stylesheet" href="../css/style.css">>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="site-wrapper">
+        <header class="main-header">
+            <div class="container header-container">
+                <div class="logo"><div class="tetris-icon">🧩</div><span class="logo-text">MAGIC<span class="highlight">TETRIS</span></span></div>
+                <nav class="main-nav"><ul><li><a href="index.html">Главная</a></li><li><a href="about.html" class="active">О проекте</a></li><li><a href="team.html">Участники</a></li><li><a href="journal.html">Журнал</a></li><li><a href="resources.html">Ресурсы</a></li></ul></nav>
+                <div class="mobile-toggle">☰</div>
+            </div>
+        </header>
+
+        <main>
+            <section class="page-header">
+                <div class="container">
+                    <h1>О проекте «MagicTetris  »</h1>
+                    <p>Изучаем наследие, создаём будущее классической головоломки</p>
+                </div>
+            </section>
+
+            <section class="about-description">
+                <div class="container">
+                    <div class="text-block">
+                        <h2>Идея и цели</h2>
+                        <p>Наш проект — это не просто клон легендарного «Тетриса». Это попытка объединить ностальгическую механику с современными требованиями к игровому опыту. Основная цель — разработать полностью функциональную веб-версию с чистым кодом, интуитивным управлением и дополнительными механиками.</p>
+                        <p>Проект выполняется студентами 1 курса в рамках дисциплины «Проектная деятельность».</p>
+                    </div>
+
+                    <div class="media-row">
+                        <div class="schema-diagram">
+                            <h3>Архитектура игрового движка</h3>
+                            <div class="schema-grid">
+                                <div class="schema-item"> UI / Рендер</div>
+                                <div class="schema-arrow">→</div>
+                                <div class="schema-item"> Логика падения</div>
+                                <div class="schema-arrow">→</div>
+                                <div class="schema-item"> Обработка линий</div>
+                                <div class="schema-arrow">→</div>
+                                <div class="schema-item"> Счёт + уровни</div>
+                            </div>
+                            <div class="extra-schema"><span>Цикл обновления (requestAnimationFrame)</span></div>
+                        </div>
+                    </div>
+
+                    <div class="tech-stack">
+                        <h2>Технологический стек</h2>
+                        <ul class="tech-list">
+                            <li>HTML5 / CSS3</li>
+                            <li>LocalStorage — сохранение рекордов</li>
+                            <li>Python/PyGame — логика игры</li>
+                            <li>Git & GitHub — управление версиями</li>
+                        </ul>
+                        <div class="progress-chart">
+                            <span>Выполнение этапов:</span>
+                            <div class="progress-bar"><div class="progress-fill" style="width:85%"></div></div>
+                            <span>85% — финальная стадия тестирования</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="main-footer">
+            <div class="container footer-inner"></div></div>
+        </footer>
+    </div>
+    
+</body>
+</html>
