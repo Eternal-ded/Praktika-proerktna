@@ -520,6 +520,10 @@ h1 {
     border: 1px solid #ccc;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 112362a2af5f6df07da05a31e1f99c0c628c1da3
 .journal-posts {
     padding: 30px 0;
 }
@@ -550,6 +554,10 @@ h1 {
     border: 1px solid #ccc;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 112362a2af5f6df07da05a31e1f99c0c628c1da3
 .resources-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
